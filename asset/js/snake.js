@@ -242,7 +242,7 @@ function map_validator(x, y) {
 }
 
 function check_lose(x, y) {
-    if (x >= max_environment || y >= max_environment || x <= min_environment || y <= min_environment) {
+    if (x > max_environment || y >= max_environment || x <= min_environment || y <= min_environment) {
         lose.play();
         clearInterval(game);
         $("body").css("background-color" , "red");
