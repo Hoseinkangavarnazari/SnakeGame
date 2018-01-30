@@ -1,0 +1,28 @@
+
+body{
+    background-color: rgb(124, 161, 69);
+}
+.container {
+	position: relative;
+	top: 30px;
+	outline:10px solid rgb(16, 78, 4)  ;
+	font-size: 0;
+	margin:auto;
+	height:460px;
+	width:460px;
+	padding: 0;
+	box-sizing: content-box;
+	border: 2px solid rgb(69, 134, 55) ;
+}
+
+.grid {
+	margin:0;
+	padding:0;
+	border:none;
+	outline: 0.4 px solid #000;
+	display:inline-block;
+}
+.title { 
+    margin: auto 43% ; 
+	font-size: 60px;
+}
